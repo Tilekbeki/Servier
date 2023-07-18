@@ -1,0 +1,263 @@
+.amlodipin-scheme{
+    padding: 40px;
+    &__block{
+        background:#fff;
+        min-height: 670px;
+        border-radius: 50px;
+        padding: 40px 18px;
+        .title{
+            color: $main-color;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 30px;
+            padding: 0 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 133%; 
+            margin-bottom: 60px;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+        margin-bottom: 140px;
+        img{
+            width: 160px;
+            height: 160px;
+            display: block;
+            margin: 0 auto;
+        }
+        .item-1{
+            width: 225px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            &__text{
+                color: $main-color;
+                text-align: center;
+                font-family: Ubuntu;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 143%; /* 34.32px */
+                letter-spacing: -0.2px;
+                border-radius: 30px;
+                border: 3px solid $main-color;
+                padding: 7px 9px;
+                width: 225px;
+                min-height: 50px;
+                position: absolute;
+                left: -200px;
+                top: -28px;
+            }
+            &__img{
+                display: block;
+            }
+            &__road{
+                position: absolute;
+                left: -42%;
+                bottom: 50%;
+                width: 125px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .item-2{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 225px;
+            &__text{
+                color: $main-color;
+                text-align: center;
+                font-family: Ubuntu;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 143%; /* 34.32px */
+                letter-spacing: -0.2px;
+                border-radius: 30px;
+                border: 3px solid $main-color;
+                padding: 7px 9px;
+                width: 225px;
+                min-height: 50px;
+                position: absolute;
+                right: -200px;
+                top: -28px;
+            }
+            &__img{
+                display: block;
+                margin: 0 auto;
+            }
+            &__road{
+                position: absolute;
+                right: -42%;
+                bottom: 50%;
+                width: 125px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+        }
+        .item-3{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin: 0 auto;
+            width: 100%;
+            &__text{
+                color: $main-color;
+                text-align: center;
+                font-family: Ubuntu;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 143%; /* 34.32px */
+                letter-spacing: -0.2px;
+                border-radius: 30px;
+                border: 3px solid $main-color;
+                padding: 7px 9px;
+                width: 225px;
+                min-height: 50px;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                bottom: -110px;
+            }
+            &__img{
+                display: block;
+                margin: 0 auto;
+            }
+            &__road{
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                bottom: -50px;
+                width: 14px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+       
+    }
+    .about-owner{
+        color: $main-color;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 133%;
+    }
+
+
+    .item-4{
+        
+        width: 80%;
+        display: flex;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        &__road{
+            width: 14px;
+            height: 50px;
+            transform: rotate(90deg);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__text{
+            color: $main-color;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%; /* 34.32px */
+            letter-spacing: -0.2px;
+            border-radius: 30px;
+            border: 3px solid $main-color;
+            padding: 7px 9px;
+            width: 225px;
+            min-height: 50px;
+        }
+    }
+    .item-5{
+        
+        width: 80%;
+        
+        display: flex;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        &__road{
+            width: 14px;
+            height: 75px;
+            transform: rotate(90deg);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__text{
+            color: $main-color;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%; /* 34.32px */
+            letter-spacing: -0.2px;
+            border-radius: 30px;
+            border: 3px solid $main-color;
+            padding: 7px 9px;
+            width: 225px;
+            min-height: 75px;
+        }
+    }
+    .item-6{
+        
+        width: 80%;
+        display: flex;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        &__road{
+            width: 14px;
+            height: 75px;
+            transform: rotate(90deg);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__text{
+            color: $main-color;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%; /* 34.32px */
+            letter-spacing: -0.2px;
+            border-radius: 30px;
+            border: 3px solid $main-color;
+            padding: 7px 9px;
+            width: 225px;
+            min-height: 50px;
+        }
+    }
+    
+}

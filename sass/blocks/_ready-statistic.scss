@@ -1,0 +1,90 @@
+.ready-statistic{
+    padding: 40px 0;
+    &__title{
+        margin: 0 auto;
+        border-radius: 30px;
+        background: $second-color;
+        width: 100%;
+        min-height: 76px;
+        padding: 6px 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px 50px;
+        margin-bottom: 80px;
+        .text{
+            color: #FFF;
+            font-family: Ubuntu;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%; /* 42.9px */
+            letter-spacing: -0.2px;
+            width: 60%;
+            text-align: initial;
+        }
+        .number{
+            color: #FFF;
+            font-family: Ubuntu;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 143%; /* 85.8px */
+            letter-spacing: -0.2px;
+        }
+    }
+    .white-block{
+        .persone-block__text{
+            color:#FFF;
+            transform: skewX(20deg);
+            font-size: 24px;
+        }
+        .persone-block__img{
+            top: 14px;
+            height: 498px;
+            left: -99px;
+        }
+        .rectangle{
+            border: 5px solid #fff;
+            border-radius: 40px;
+            background-color: #820150;
+            transform: skewX(-20deg);
+            margin-left: 14%;
+            padding-left: 166px;
+            width: 76%;
+            padding-right: 0px;
+        }
+        .blur{
+            width: 440px;
+            height: 200px;
+            position: absolute;
+            z-index: 2;
+            bottom: -30px;
+            left: -80px;
+            background: linear-gradient(180deg, rgba(134, 8, 84, 0.00) 18.54%, #820150 65.94%);
+        }
+        .persone-block__info{
+            bottom: -34px;
+            z-index: 3;
+            
+            .persone-block__name{
+                background: #fff;
+                border-radius: 4px 4px 6px 8px;
+                border:1px solid #fff;
+                p{
+                    color: $main-color;
+                }
+            }
+            .persone-block__rank{
+                background: #fff;
+                border:1px solid #fff;
+                p{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
