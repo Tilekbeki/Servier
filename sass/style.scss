@@ -11,7 +11,12 @@ body{
     min-height: 6800px;
 }
 
-
+.fade {
+    display: none;
+}
+.no-fade{
+    display: block;
+}
 
 @import 'blocks/header';
 @import 'blocks/factors-statistic';
