@@ -99,7 +99,7 @@ const observer = new IntersectionObserver((entries)=>{
                             style: {
                                 color: '#FFF',
                                 fontFamily: 'Ubuntu',
-                                fontSize: '18px',
+                                fontSize: '22px',
                                 fontStyle: 'normal',
                                 border: 'none',
                                 fontWeight: 700,

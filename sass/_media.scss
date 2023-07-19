@@ -1,4 +1,13 @@
 @media (max-width: 1200px) {
+    .amlodipin-scheme__wrapper .item-2__road {
+        width: 130px;
+        right: -51%;
+    }
+    .amlodipin-scheme__wrapper .item-1__road {
+        left: -56%;
+        width: 130px;
+        height: 68px;
+    }
     .mini-wrapper{
         .two-years{
             right: -76%;
@@ -82,10 +91,10 @@
                 min-height: 230px;
             }
             &__item-3{
-                min-height: 189px;
+                min-height: 183px;
             }
             &__item-5{
-                min-height: 228px;
+                min-height: 261px;
             }
         }
     }
@@ -218,10 +227,13 @@
             }
         }
     }
+    .my-graph .mini-wrapper .two-years{
+        right: 17%;
+    }
     .my-graph .mini-wrapper .target{
         position: absolute;
-        right: 1%;
-        bottom: 6px;
+        right: 18%;
+        bottom: 12px;
         width: 80px;
         border: 2px solid #fff;
     }
@@ -230,6 +242,19 @@
 
 
 @media (max-width: 767px){
+    .my-graph {
+        padding: 0;
+    }
+    .my-graph .mini-wrapper .two-years{
+        right: 1%;
+    }
+    .my-graph .mini-wrapper .target{
+        position: absolute;
+        right: -3%;
+        bottom: 12px;
+        width: 75px;
+        border: 2px solid #fff;
+    }
     .recomendations{
         &__row-2{
             &__item-1{
@@ -243,8 +268,14 @@
             }
         }
         &__row-1{
+            &__item-1{
+                min-height: 263px;
+            }
+            &__item-3{
+                min-height: 189px;
+            }
             &__item-5{
-                min-height: 319px;
+                min-height: 316px;
             }
         }
         
@@ -324,6 +355,9 @@
 
 
 @media (max-width:575px){
+    .list-of-literature .for-who{
+        font-size: 22px;
+    }
     .header{
         padding: 0;
         .title{

@@ -20,7 +20,17 @@ body{
 .no-fade{
     display: block;
 }
-
+.animated-image {
+    position: relative;
+    clip-path: inset(0 0 100% 0);
+    animation: slide-down 1s ease-in-out forwards;
+  }
+  
+  @keyframes slide-down {
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
 @import 'blocks/header';
 @import 'blocks/factors-statistic';
 @import 'blocks/programs-statistic';

@@ -21,11 +21,11 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 60px;
+        gap: 15px;
         margin-bottom: 140px;
         img{
-            width: 160px;
-            height: 160px;
+            width: 220px;
+            height: 220px;
             display: block;
             margin: 0 auto;
         }
@@ -35,32 +35,32 @@
             justify-content: center;
             position: relative;
             &__text{
-                color: $main-color;
+                color: #82004f;
                 text-align: center;
                 font-family: Ubuntu;
-                font-size: 12px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 143%; /* 34.32px */
-                letter-spacing: -0.2px;
+                line-height: 143%;
+                letter-spacing: -.2px;
                 border-radius: 30px;
-                border: 3px solid $main-color;
+                border: 3px solid #82004f;
                 padding: 7px 9px;
-                width: 225px;
+                width: 305px;
                 min-height: 50px;
                 position: absolute;
-                left: -200px;
-                top: -28px;
+                left: -308px;
+                top: -24px;
             }
             &__img{
                 display: block;
             }
             &__road{
                 position: absolute;
-                left: -42%;
-                bottom: 50%;
-                width: 125px;
-                height: 50px;
+                left: -78%;
+                bottom: 46%;
+                width: 171px;
+                height: 68px;
                 img{
                     width: 100%;
                     height: 100%;
@@ -73,22 +73,22 @@
             position: relative;
             width: 225px;
             &__text{
-                color: $main-color;
+                color: #82004f;
                 text-align: center;
                 font-family: Ubuntu;
-                font-size: 12px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 143%; /* 34.32px */
-                letter-spacing: -0.2px;
+                line-height: 143%;
+                letter-spacing: -.2px;
                 border-radius: 30px;
-                border: 3px solid $main-color;
+                border: 3px solid #82004f;
                 padding: 7px 9px;
-                width: 225px;
+                width: 298px;
                 min-height: 50px;
                 position: absolute;
-                right: -200px;
-                top: -28px;
+                right: -273px;
+                top: -24px;
             }
             &__img{
                 display: block;
@@ -96,10 +96,10 @@
             }
             &__road{
                 position: absolute;
-                right: -42%;
-                bottom: 50%;
-                width: 125px;
-                height: 50px;
+                right: -69%;
+                bottom: 46%;
+                width: 171px;
+                height: 68px;
                 img{
                     width: 100%;
                     height: 100%;
@@ -117,7 +117,7 @@
                 color: $main-color;
                 text-align: center;
                 font-family: Ubuntu;
-                font-size: 12px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 143%; /* 34.32px */
@@ -125,12 +125,12 @@
                 border-radius: 30px;
                 border: 3px solid $main-color;
                 padding: 7px 9px;
-                width: 225px;
+                width: 308px;
                 min-height: 50px;
                 position: absolute;
                 left: 50%;
                 transform: translate(-50%);
-                bottom: -110px;
+                bottom: -120px;
             }
             &__img{
                 display: block;

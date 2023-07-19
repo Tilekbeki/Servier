@@ -29,7 +29,7 @@
             align-items: center;
             border-radius: 30px;
             border: 5px dashed #FFF;
-            min-height: 220px;
+            min-height: 230px;
             &__title{
                 color: #FFF;
                 font-family: Ubuntu;
@@ -48,6 +48,7 @@
                 font-weight: 400;
                 line-height: 150%; /* 60px */
                 padding-bottom: 10px;
+                width: 300px;
             }
         }
         &__item-2{
@@ -168,7 +169,7 @@
             align-items: center;
             border-radius: 30px;
             border: 5px dashed #FFF;
-            min-height: 220px;
+            min-height: 261px;
             &__text{
                 color: #FFF;
                 text-align: center;

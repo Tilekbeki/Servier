@@ -22,8 +22,10 @@ arrow.addEventListener('click',()=>{
         <li>Lewis C.E. et al. Final Report of a Trial of Intensive versus Standard Blood-Pressure Control Engl J Med 2021; 384: 1921-30.</li>
       </ol>
         `;
+        arrow.style.transform = 'rotate(180deg)';
     }
     else{
+        arrow.style.transform = 'none';
         list.classList.toggle('fade');
         list.classList.toggle('no-fade');
         list.querySelector('ol').remove();
