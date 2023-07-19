@@ -974,7 +974,7 @@ body {
 .mini-wrapper .target {
     position: absolute;
     right: -144%;
-    bottom: -147px;
+    bottom: -77px;
     width: 67px;
     height: 101px;
     border: 1px solid #fff;
@@ -1549,17 +1549,18 @@ body {
 @media (max-width: 1400px){
     .mini-wrapper .target {
     right: -118%;
-    bottom: -147px;
+    bottom: -70px;
     }
 }
 @media(max-width:1200px) {
     .mini-wrapper .two-years {
-        right: -76%
+        right: -76%;
+        bottom: 92px;
     }
 
     .mini-wrapper .target {
         right: -92%;
-        bottom: -123px
+        bottom: -21px
     }
 
     .header .persone-block__rectangle {
@@ -1639,7 +1640,7 @@ body {
 
     .mini-wrapper .target {
         right: -57%;
-        bottom: -123px
+        bottom: -21px
     }
 
     .header .title h1 {
@@ -1751,12 +1752,12 @@ body {
 }
 @media(max-width:767px) {
     .mini-wrapper .two-years {
-        bottom: 100px
+        bottom: 177px
     }
 
     .mini-wrapper .target {
         right: -48%;
-        bottom: -67px
+        bottom: 35px
     }
 
     .vector-left,
@@ -1821,43 +1822,43 @@ body {
 @media (max-width: 767px){
     .mini-wrapper .target {
     right: -31%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 660px){
     .mini-wrapper .target {
     right: -34%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 640px){
     .mini-wrapper .target {
     right: -35%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 630px){
     .mini-wrapper .target {
     right: -38%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 601px){
     .mini-wrapper .target {
     right: -42%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 583px){
     .mini-wrapper .target {
     right: -44%;
-    bottom: -67px;
+    bottom: 35px;
     }
 }
 @media (max-width: 576px){
     .mini-wrapper .target {
     right: -48%;
-    bottom: -67px;
+    bottom: 35px;
     height: 114px;
     }
 }
@@ -1878,12 +1879,12 @@ body {
     }
 
     .mini-wrapper .two-years {
-        bottom: 130px
+        bottom: 355px
     }
 
     .mini-wrapper .target {
         right: -48%;
-        bottom: -66px
+        bottom: 36px
     }
 
     .factors-statistic .block-title__text {
@@ -2300,7 +2301,7 @@ body {
 @media (max-width: 490px){
     .mini-wrapper .target {
     right: -48%;
-    bottom: -46px;
+    bottom: 130px;
     height: 114px;
     }
 }
@@ -2308,14 +2309,14 @@ body {
 @media (max-width: 446px){
     .mini-wrapper .target {
     right: -48%;
-    bottom: 0px;
+    bottom: 160px;
     height: 114px;
     }
 }
 @media (max-width: 415px){
     .mini-wrapper .target {
     right: -48%;
-    bottom: 40px;
+    bottom: 210px;
     height: 114px;
     }
 }
