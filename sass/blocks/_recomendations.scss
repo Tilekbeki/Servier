@@ -8,6 +8,11 @@
     }
     .recomendation-title{
         margin-bottom: 40px;
+        justify-content: center;
+        gap:15px;
+        .block-title__text{
+            font-size: 32px;
+        }
     }
     .list-recomendations{
         display: flex;
