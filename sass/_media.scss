@@ -79,7 +79,7 @@
     .recomendations{
         &__row-2{
             &__item-1{
-                min-height: 228px;
+                min-height: 230px;
             }
             &__item-3{
                 min-height: 189px;
@@ -222,6 +222,25 @@
 
 
 @media (max-width: 767px){
+    .recomendations{
+        &__row-2{
+            &__item-1{
+                min-height: 263px;
+            }
+            &__item-3{
+                min-height: 189px;
+            }
+            &__item-5{
+                min-height: 228px;
+            }
+        }
+        &__row-1{
+            &__item-5{
+                min-height: 319px;
+            }
+        }
+        
+    }
     .mini-wrapper{
         .two-years{
             bottom:100px
