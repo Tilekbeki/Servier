@@ -10,6 +10,7 @@ const observer = new IntersectionObserver((entries)=>{
                     },
                     
                 },
+                height: 1000,
                 dataLabels: {
                     enabled: true,
                     format: '{point.y:.1f}%',
@@ -133,7 +134,7 @@ const observer = new IntersectionObserver((entries)=>{
                         drilldown: null
                     }, {
                         name: '1',
-                        y: 3.1,
+                        y: 5.5,
                         dataLabels: {
                             colors: ['#ffffff'],
                             border: ['#ffffff'],
@@ -142,7 +143,7 @@ const observer = new IntersectionObserver((entries)=>{
                         drilldown: null
                     }, {
                         name: '2',
-                        y: 10.38,
+                        y: 3.1,
                         dataLabels: {
                             enabled: true
                         },
