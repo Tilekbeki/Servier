@@ -211,7 +211,6 @@
                 }
             }
         }
-    }
     .recomendations{
         &__row-2{
             &__item-5{
@@ -219,6 +218,15 @@
             }
         }
     }
+    .my-graph .mini-wrapper .target{
+        position: absolute;
+        right: 1%;
+        bottom: 6px;
+        width: 80px;
+        border: 2px solid #fff;
+    }
+}
+    
 
 
 @media (max-width: 767px){

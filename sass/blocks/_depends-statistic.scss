@@ -35,23 +35,22 @@
 
 
 .my-graph {
-    height: 294px;
+    height: 380px;
     position: relative;
     #container {
         height: 100%;
     }
     .mini-wrapper{
-        width: 100%;
+        width: 98%;
         height: 100%;
-        
-        transform: translate(-50%);
         position: absolute;
-        bottom: 300px;
+        bottom: 0px;
         .two-years{
             position: absolute;
-            bottom: 50px;
+            bottom: 180px;
             display: flex;
-            right: -120%;
+            right: 5%;
+            z-index: 2;
             align-items: center;
             justify-content: center;
             border-radius: 60px;
@@ -68,12 +67,12 @@
         }
         .target{
             position: absolute;
-            right: -144%;
-            bottom: -147px;
-            width: 67px;
-            height: 101px;
-            border: 1px solid #fff;
-            border-radius: 15px;
+            right: 2%;
+            bottom: 6px;
+            width: 80px;
+            height: 120px;
+            border: 2px solid #fff;
+            border-radius: 25px;
         }
     }
 }
