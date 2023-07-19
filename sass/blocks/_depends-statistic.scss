@@ -32,38 +32,48 @@
 #container{
     position: relative;
 }
-.mini-wrapper{
-    width: 655px;
-    
-    transform: translate(-50%);
-    position: absolute;
-    bottom: 300px;
-    .two-years{
-        position: absolute;
-        bottom: 50px;
-        display: flex;
-        right: -120%;
-        align-items: center;
-        justify-content: center;
-        border-radius: 60px;
-        background: #FFF;
-        width: 174px;
-        height: 50px;
-        color: #82004F;
-        font-family: Ubuntu;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 143%; /* 57.2px */
-        letter-spacing: -0.2px;
+
+
+.my-graph {
+    height: 294px;
+    position: relative;
+    #container {
+        height: 100%;
     }
-    .target{
+    .mini-wrapper{
+        width: 100%;
+        height: 100%;
+        
+        transform: translate(-50%);
         position: absolute;
-        right: -144%;
-        bottom: -147px;
-        width: 67px;
-        height: 101px;
-        border: 1px solid #fff;
-        border-radius: 15px;
+        bottom: 300px;
+        .two-years{
+            position: absolute;
+            bottom: 50px;
+            display: flex;
+            right: -120%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 60px;
+            background: #FFF;
+            width: 174px;
+            height: 50px;
+            color: #82004F;
+            font-family: Ubuntu;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 143%; /* 57.2px */
+            letter-spacing: -0.2px;
+        }
+        .target{
+            position: absolute;
+            right: -144%;
+            bottom: -147px;
+            width: 67px;
+            height: 101px;
+            border: 1px solid #fff;
+            border-radius: 15px;
+        }
     }
 }
