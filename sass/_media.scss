@@ -242,6 +242,20 @@
 
 
 @media (max-width: 767px){
+    .list-statistic{
+        &__item-1{
+            width: 100%;
+        }
+        &__item-3{
+            width: 100%;
+        }
+        &__item-5{
+            width: 100%;
+            &__text{
+                width: 100%;
+            }
+        }
+    }
     .my-graph {
         padding: 0;
     }
@@ -250,7 +264,7 @@
     }
     .my-graph .mini-wrapper .target{
         position: absolute;
-        right: -3%;
+        right: -5%;
         bottom: 12px;
         width: 75px;
         border: 2px solid #fff;
@@ -355,6 +369,15 @@
 
 
 @media (max-width:575px){
+    .table-img{
+        display: block;
+    }
+    .my-graph{
+        display: none;
+    }
+    .my-graph #container text{
+        font-size: 14px;
+    }
     .list-of-literature .for-who{
         font-size: 22px;
     }
@@ -395,6 +418,20 @@
     }
     .programs-statistic__title{
         font-size: 26px;
+    }
+    .list-statistic{
+        &__item-1{
+            width: 100%;
+        }
+        &__item-3{
+            width: 100%;
+        }
+        &__item-5{
+            width: 100%;
+            &__text{
+                width: 100%;
+            }
+        }
     }
     .list-statistic{
         &__item-1__number{
@@ -587,6 +624,7 @@
         }
     }
     .recomendations{
+
         &__wrapper{
             gap: 10px;
         }
@@ -598,7 +636,8 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
+                    width: 215px;
                 }
             }
             &__item-3{
@@ -607,7 +646,7 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
             &__item-5{
@@ -616,7 +655,7 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
         }
@@ -628,7 +667,7 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
             &__item-3{
@@ -637,7 +676,7 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
             &__item-5{
@@ -646,7 +685,7 @@
                     font-size: 40px;
                 }
                 &__text{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
         }
@@ -737,7 +776,7 @@
         }
     }
     .list-statistic__item-5__text{
-        width: 282px;
+        width: 100%;
     }
     .ready-statistic .white-block .blur{
         left: 50%;

@@ -1,7 +1,9 @@
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
-            Highcharts.chart('container', {
+            var fontSize = $(window).width() < 575 ? '14px' : '18px';
+            console.log(fontSize)
+            let Graph = Highcharts.chart('container', {
                 chart: {
                     type: 'column',
                     backgroundColor: 'transparent',
@@ -16,7 +18,7 @@ const observer = new IntersectionObserver((entries)=>{
                     format: '{point.y:.1f}%',
                     style: {
                         color: '#ffffff',
-                        fontSize: '14px' // добавляем опцию
+                        fontSize: fontSize // добавляем опцию
                         
                     }
                     
@@ -35,7 +37,7 @@ const observer = new IntersectionObserver((entries)=>{
                         style: {
                             color: '#FFF',
                             fontFamily: 'Ubuntu',
-                            fontSize: '18px',
+                            fontSize: fontSize,
                             fontStyle: 'normal',
                             fontWeight: 400,
                             lineHeight: '143%',
@@ -61,7 +63,7 @@ const observer = new IntersectionObserver((entries)=>{
                         style: {
                             color: '#FFF',
                             fontFamily: 'Ubuntu',
-                            fontSize: '18px',
+                            fontSize: fontSize,
                             fontStyle: 'normal',
                             fontWeight: 500,
                             lineHeight: '143%',
@@ -73,7 +75,7 @@ const observer = new IntersectionObserver((entries)=>{
                         style: {
                             color: '#FFF',
                             fontFamily: 'Ubuntu',
-                            fontSize: '18px',
+                            fontSize: fontSize,
                             fontStyle: 'normal',
                             fontWeight: 400,
                             lineHeight: '143%',
@@ -99,7 +101,7 @@ const observer = new IntersectionObserver((entries)=>{
                             style: {
                                 color: '#FFF',
                                 fontFamily: 'Ubuntu',
-                                fontSize: '22px',
+                                fontSize: fontSize,
                                 fontStyle: 'normal',
                                 border: 'none',
                                 fontWeight: 700,
@@ -115,7 +117,7 @@ const observer = new IntersectionObserver((entries)=>{
                         colors: ['#ffffff'],
                         pointPadding: 0.2,
                         borderWidth: 0,
-                        pointWidth: 40,
+                        pointWidth: 30,
                     }
                 },
 
@@ -201,9 +203,29 @@ const observer = new IntersectionObserver((entries)=>{
                 }],
                 
             });
+            chart.update({
+                yAxis: {
+                  labels: {
+                    style: {
+                      fontSize: fontSize
+                    }
+                  }
+                }
+              });
         }
     });
 });
 
+
+if (window.innerWidth > 575) {
+    console.log('okay')
+ } else {
+    const texts = document.querySelectorAll('text');
+    texts.forEach((elem)=>{
+        elem.style.fontSize = '10';
+        console.log(elem);
+    });
+ }
+console.log(1)
 const marker = document.getElementById('container');
 observer.observe(marker);
