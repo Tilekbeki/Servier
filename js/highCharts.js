@@ -99,7 +99,7 @@ const observer = new IntersectionObserver((entries)=>{
                         borderWidth: 0,
                         dataLabels: {
                             enabled: true,
-                            format: '{point.y:.1f}%',
+                            format: '{point.y:.1f}',
                             lineWidth: 2, // толщина линии
                             color: '#fff', // цвет линии
                             border: '#fff',
