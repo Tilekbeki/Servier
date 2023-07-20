@@ -1,9 +1,12 @@
+
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
             var fontSize = $(window).width() < 575 ? '14px' : '18px';
-            console.log(fontSize)
-            let Graph = Highcharts.chart('container', {
+            // console.log(fontSize)
+            // verticalArrow.setAttribute('d','M 80 1 L 80 340');
+            
+            Highcharts.chart('container', {
                 chart: {
                     type: 'column',
                     backgroundColor: 'transparent',
@@ -43,7 +46,8 @@ const observer = new IntersectionObserver((entries)=>{
                             lineHeight: '143%',
                             letterSpacing: '-0.2px',
                             border: 'none'
-                        }
+                        },
+                        d: 'M 93 10 L 93 314'
                     },
                     plotLines: [{
                         value: 0,
@@ -53,7 +57,7 @@ const observer = new IntersectionObserver((entries)=>{
                         labels: {
                             style: {
                                 left:'20px'
-                            }
+                            },
                         },
                     }],
                 },
@@ -203,29 +207,31 @@ const observer = new IntersectionObserver((entries)=>{
                 }],
                 
             });
-            chart.update({
-                yAxis: {
-                  labels: {
-                    style: {
-                      fontSize: fontSize
-                    }
-                  }
-                }
-              });
+            const line = document.querySelector('#container .highcharts-plot-lines-4').querySelector('path');
+            
+            if(window.innerWidth < 991 & window.innerWidth > 767){
+                line.setAttribute('d', 'M 79 0 L 79 320');
+            }
+            if(window.innerWidth > 575 & window.innerWidth < 767){
+                line.setAttribute('d', 'M 70 0 L 70 310');
+            }
+            else{
+                line.setAttribute('d', 'M 79 0 L 79 340');
+            }
         }
     });
+    
 });
 
 
-if (window.innerWidth > 575) {
-    console.log('okay')
- } else {
-    const texts = document.querySelectorAll('text');
-    texts.forEach((elem)=>{
-        elem.style.fontSize = '10';
-        console.log(elem);
-    });
- }
-console.log(1)
+// if (window.innerWidth > 575) {
+//     console.log('okay')
+//  } else {
+//     const texts = document.querySelectorAll('text');
+//     texts.forEach((elem)=>{
+//         elem.style.fontSize = '10';
+//         console.log(elem);
+//     });
+//  }
 const marker = document.getElementById('container');
 observer.observe(marker);
