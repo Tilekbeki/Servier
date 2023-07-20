@@ -62,6 +62,7 @@ const observer = new IntersectionObserver((entries)=>{
                     }],
                 },
                 yAxis: {
+                    tickPositions: [0, 10, 20, 30, 40, 50, 60, 70, 80],
                     title: {
                         text: 'Пациенты, %',
                         style: {
