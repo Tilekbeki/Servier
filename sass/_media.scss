@@ -258,6 +258,9 @@
 
 
 @media (max-width: 767px){
+    .programs-statistic__title{
+        width: 100%;
+    }
     .list-statistic{
         &__item-1{
             width: 100%;
