@@ -18,6 +18,18 @@
     <script>
         new WOW().init();
     </script>
+	
+	<style>
+		br.mobile_breaking {
+		  display: inline; 
+		}
+
+		@media (min-width: 820px) { 
+		  br.mobile_breaking {
+			display: none;
+		  }
+		}
+</style>
 </head>
 
 <body>
@@ -180,7 +192,7 @@
                             <div class="recomendations__row-2__item-5">
                                 <div class="wow recomendations__row-2__item-5__text" data-wow-duration="3s" class="wow animate__fadeInUp" style="visibility: visible; animation-duration: 3s; animation-name: fadeInUp;">
                                     Резистентная гипертония Добавление спиронолактона
-                                    (25-50 мг) или другой диуретик или моксонидин или а-блокатор или ß-блокатор
+                                    (25-50 мг) или другой диуретик или моксонидин или а-блокатор <br>или ß-блокатор
                                 </div>
                             </div>
                         </div>
@@ -351,8 +363,11 @@
                 <div class="footer__wrapper" data-wow-duration="1s" class="animate__fadeIn" style="visibility: visible; animation-duration: 1s; animation-name: fadeIn;">
                     <div class="logo"><img src="icons/logo.png" alt="logo"></div>
                     <address class="address">
-                        <div class="address__location">АО «Сервье»: 125196, Москва, ул.
-                             Лесная, д. 7, этажи 7/8/9 Бизнес-центр Белые Сады</div>
+                        <div class="address__location">АО «Сервье»: 125196, Москва,
+						<br class="mobile_breaking"   />
+						ул.Лесная, д. 7, этажи 7/8/9
+						<br class="mobile_breaking"  />
+						Бизнес-центр Белые Сады</div>
                         <div class="address__contacts"><p style="margin: 0; padding: 0;">Телефон: +7 495 937-07-00</p>
                             <p style="margin: 0; padding: 0;">Факс: +7 495 937-07-01</p></div>
                     </address>

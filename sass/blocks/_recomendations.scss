@@ -181,6 +181,9 @@
                 line-height: 150%; /* 60px */
                 padding-bottom: 10px;
                 width: 405px;
+                br {
+                    display: none;
+                }
             }
         }
     }
