@@ -441,8 +441,12 @@
 
 
 @media (max-width:575px){
+    .list-item-1__underText{
+        font-size: 20px;
+    }
     .page-subtitle{
         display: block;
+        font-size: 14px;
     }
     .highcharts-plot-lines-4{
         display: none;
@@ -765,7 +769,7 @@
                 }
                 &__text{
                     font-size: 16px;
-                    width: unset;
+                    width: 90%;
                 }
             }
         }
@@ -881,5 +885,18 @@
             }
             width: 100%;
         }
+    }
+    .my-graph .mini-wrapper .target {
+        position:absolute;right:0%;bottom:9.5%;width:10%;height:21%;border:2px solid #fff;
+    }
+    .my-graph .mini-wrapper .two-years{
+        right:17%;
+        width:100px;
+    }
+    .my-graph{
+        width: 100%;
+    }
+    .page-description{
+        width: 100%;
     }
 }

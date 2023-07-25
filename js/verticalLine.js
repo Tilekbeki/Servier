@@ -28,7 +28,10 @@ window.addEventListener('resize', function() {
         verticalArrow2.setAttribute('d', 'M 70 0 L 70 315');
     }
   });
-
+  if(window.innerWidth<575){
+    const verticalArrowParent = document.querySelector('#container .highcharts-plot-lines-4');
+    verticalArrowParent.style.display = 'none';
+}
 const markerer = document.getElementById('highcharts-2bxd7wz-13');
 observerer.observe(marker);
 

@@ -3,6 +3,7 @@ const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
             var fontSize = $(window).width() < 575 ? '14px' : '18px';
+	    var columnWidth = $(window).width() < 575 ? '15' : '30';
             // console.log(fontSize)
             // verticalArrow.setAttribute('d','M 80 1 L 80 340');
             
@@ -46,7 +47,10 @@ const observer = new IntersectionObserver((entries)=>{
                             lineHeight: '143%',
                             letterSpacing: '-0.2px',
                             border: 'none'
+							
                         },
+						rotation: 0,
+												 
                         d: 'M 93 10 L 93 314'
                     },
                     plotLines: [{
@@ -122,7 +126,7 @@ const observer = new IntersectionObserver((entries)=>{
                         colors: ['#ffffff'],
                         pointPadding: 0.2,
                         borderWidth: 0,
-                        pointWidth: 30,
+                        pointWidth: columnWidth,
                     }
                 },
 
